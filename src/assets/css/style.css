@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+}
+
+form{
+    
+    border: 1px solid #888;
+    width: 300px;
+    height: 350px;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+form input
+{
+    display: block;
+    min-width: 150px;
+    height: 25px;
+    width: 100%;
+    font-size: 18px;
+    padding: 3px;
+}
+
+form button{
+    display: block;
+    min-width: 100px;
+    width: fit-content;
+    height: 30px;
+    margin: 10px auto;
+}
+
+
