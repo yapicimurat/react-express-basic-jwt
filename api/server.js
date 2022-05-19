@@ -50,7 +50,7 @@ app.post('/login', (req, res) => {
             jwt.sign({ mockUser }, 'secretKey',
                 {
                     algorithm: "HS256",
-                    expiresIn: "1m" //1 minute-> 60.000 milliseconds
+                    expiresIn: "10m" //1 minute-> 60.000 milliseconds
                 }, (err, token) => {
                     if (err) {
                         res.sendStatus(403);
